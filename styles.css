@@ -2,7 +2,8 @@
     box-sizing: border-box;
     margin: 1px;
     padding: 0;
-    font-family: 'ArcadeClassic', sans-serif;
+    font-weight: bold;
+    font-family: "Computer Modern Typewriter", sans-serif;
 }
 
 /* title */
