@@ -1,0 +1,310 @@
+* {
+    box-sizing: border-box;
+    margin: 1px;
+    padding: 0;
+    font-family: 'ArcadeClassic', sans-serif;
+}
+
+/* title */
+
+
+/* horizontal threline nav bar */
+
+.navbar {
+    width: 80px;
+    display: block;
+    margin: 50px auto;
+
+    padding: 8px 10px;
+    transition: all 0.5s;
+    transform: rotate(180deg);
+    position: absolute;
+    cursor: pointer;
+    right: 1%;
+    top: -6%;
+   
+    
+}
+
+
+
+
+
+
+
+
+
+.navbar__menu {
+    display: flex;
+    
+    
+    align-items: center;
+    list-style: none;
+    text-align: center;
+    justify-content: center;
+    float: none;
+    
+    width: 85%;
+    height: 100px;
+    margin:  auto;
+    padding: 10px;
+    margin-top: -70px; 
+    
+    
+    
+     
+    
+}
+
+
+
+
+
+.navbar__item {  
+    text-align: center;
+    
+
+}
+
+.navbar__links {
+    
+    
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    height: 100%;
+    font-size: large;
+    
+}
+
+@media only screen 
+    and (min-width: 400px)
+    and (max-width: 800px) {
+        .navbar__links {
+            visibility: hidden;
+            transition: all 0.3s ease;
+        }
+    }
+    
+    
+
+
+
+
+
+.navbar__links:hover {
+    color: rgb(114, 103, 103);
+    transition:  all 0.3s ease;
+}
+
+
+.navbar div {
+height: 5px !important;
+background: #000;
+margin: 7px 0px 7px 0px;
+
+
+
+transition: all 0.5s;
+-webkit-transition: all 0.5s;
+}
+
+.two {
+width: 50px;
+}
+
+.three {
+width: 35px;
+}
+
+.navbar:hover div {
+width: 60px;
+}
+
+/* about section && projects */
+
+
+
+.main__container {
+    display: inline-flex;
+    grid-template-columns: lfr lfr;
+    align-items: center;
+    justify-self: center;
+    margin: 0 auto; 
+
+    height: 200vh;
+    z-index: 1;
+    width: 100%;
+    padding: 0 50px;
+    
+    
+    
+}
+
+.profile-pic {
+    height: auto;
+    width: 100%;
+    max-width: 250px;   
+    
+    padding: 10px;
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    /* border: 2px solid black;   */
+}
+.project-gif {
+    padding: 20px;
+}
+.projectgif {
+    width: 500px;
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    /* border: 2px solid black;   */
+    
+}
+
+.papng {
+    height: auto;
+    width: 100%;
+    max-width: 3000px; 
+    height: auto;
+    width: 100%;
+    max-width: 4000px;  
+    border: 2px solid black   ;
+    
+}
+
+.MoldP {
+    /* border: 5px solid goldenrod; */
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+.gifContainer {
+    display: inline-block;
+    align-items: center;
+}
+
+.imgContainer {
+    display: inline-block;
+    align-items: center;
+}
+
+.paProjectimg {
+    margin: auto;
+    width: 90%;
+    /* border: 5px solid #FFFF00; */
+    padding: 20px;
+    text-align: center;
+
+}
+
+
+
+
+
+
+.main__content p {
+    margin-top: 1rem;
+    font-size: 2 rem;
+    font-weight: 100;
+    font-family: "Computer Modern Typewriter", sans-serif;
+    /* text-align: center; */
+    
+}
+
+.projects {
+    margin-top: 100px;
+}
+
+
+
+.main__container h3 {
+    margin-top: .1rem;
+}
+.main__container a {
+    margin-top: 1rem;
+    height: 0px;
+    text-decoration: none;
+    color: #000;
+}
+
+.main__container a:hover{
+    color: blue;
+}
+
+
+
+.contact {
+    /* border: 5px solid #FFFF00; */
+    text-align: center;
+    margin-top: 250px;
+    padding: 10px;
+    display: grid;
+    grid-auto-flow: column;
+    
+}
+
+.contact p {
+    font-size: 20px;
+    
+    font-family: "Computer Modern Typewriter", sans-serif;
+    
+}
+
+.contact p2{
+    font-size: 10px;
+    
+    font-family: "Computer Modern Typewriter", sans-serif;
+    color: gray;
+    margin-top: 40px;
+
+}
+
+.fa-brands {
+    font-size: 25px;
+    margin-top: 20px;
+    width: 50px;
+    color: lightgray
+}
+
+.fa-solid {
+    font-size: 25px;
+    margin-top: 25px;
+    width: 50px;
+    color: lightgray
+
+}
+
+
+.fa-solid:hover {
+    color: #000;
+    
+
+}
+
+.fa-brands:hover{
+    color: #000;
+}
+
+    
+
+
+
+
+
+
+
+  

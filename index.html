@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Next Wesbite</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" 
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" 
+    crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a340582b70.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="styles.css">
+    
+    
+    
+    <style>
+        @import url('http://fonts.cdnfonts.com/css/arcade-classic');
+       
+        @import url('https://cdn.jsdelivr.net/gh/dreampulse/computer-modern-web-font@master/fonts.css');
+        
+</style>
+
+</head>
+<body>
+    <div class = "header">
+        <h1 style = "display: inline-block" data-text= "Luca MoynSier"> Luca Moynier</h1>  
+        <div style = "display: inline-block;" id ="blink"><h1 data-text2 = "|" id = "flash"> |</h1></div> 
+    </div>
+    
+    <nav>
+        <div class="navbar" id = "nav-icon">
+            <!-- <div class= "one"></div>
+            <div class= "two"></div>
+            <div class= "three"></div> -->
+        </div>
+        
+        <ul class="navbar__menu" id = "nav-menu">
+            <li class="navbar__item"> 
+                <a href="https://drive.google.com/file/d/1tZAEQlvBbyhvJ-WCdnqdDDL_is_NEpAi/view?usp=sharing" target="_blank" class="navbar__links"> Resume</a>
+            </li>
+            <li class="navbar__item">
+                <a href="https://github.com/lucamoynierUBC" target="_blank" class="navbar__links"> Github</a>
+            </li>
+            
+            <li class="navbar__item">
+                <a href="#projects" class="navbar__links"> Projects</a>
+            </li>
+        
+
+        </ul>
+
+    
+        
+
+    
+    </nav>
+    
+    <div class = "main">
+        <div class = "main__container">
+            <div class = "main__content">
+                
+                <section id="About Me">
+                    <h2> About Me</h2>
+                </section>
+                
+                <p>     Hello, my name is Luca Moynier. I am currently a third year 
+                    Cognitive Systems student at the University of British Columbia. I'm also minoring in Computer Science. I love
+                    studying emergence, cellular-automata and building simulations that can partially or fully represent some features
+                    of our world.
+                      </p>
+                <p> In my off-time I enjoy skating both as a hobby and means of tranportation. I also love to Ski, 3D model, play basketball and DJ. </p>
+                <div class = "profile-image">
+                    <img class = "profile-pic" src="images/profilepix.jpg" alt="" data-pixelate>
+                <section id="projects">
+                    <h2 class="projects"> Projects</h2>
+                </section>
+                
+                <h3> 
+                    <a href="https://github.com/lucamoynierUBC/SoundBoard-App/tree/main/project_s2x2b%20duplicate" target="_blank"> Sound Board Desktop App </a>
+                    
+
+                </h3>
+                <p>    This was my firt ever coding project. The main motivation behind developing this app came from DJing. There was no fluid method to play short audi-bits of my favourite adlibs on any DJ software withought
+                    interrupting a mix between two songs. So instead of making a to-do list app(the seemingly popular project idea for most students in this course), I created a simple desktop soundboard. The soundboard plays adlibs, loops, and compilations.
+     
+                </p>
+            
+                <p class="p2">I self learned the Java libraries Swing and AWT to build a GUI, and JSON to load and save loops and audiofiles.
+                    I also extensively documented every method and class, and included a JUnit suite with 100% code coverage for the back end.
+                    Don't mind the the gifs and images in the GUI. Some of them were just there to fill out some requirements for the course project.
+                </p>
+                <div class="project-gif">
+                    <img class="projectgif" src="images/cpsc210project.gif" alt="">
+
+                </div>
+
+                <h3> 
+                    <a href="https://github.com/lucamoynierUBC/Mold-Art" target="_blank"> Mold Art</a>
+                </h3>
+                <p> Desktop app that that grows "mold" in an emergent pattern using simple
+                    rules of interactions. Each mold object is an array-like data structure that contains the x and y
+                    coordinates of the space occupied by the mold. I employed a composite design pattern allowing the mold to grow in a tree like structure.
+                 </p>
+                <div class="MoldP">
+                    <div class="gifContainer">
+                        <img  class="moldgif" src="images/compressedmoldcol.gif" alt="" >
+                    </div>
+                    <div class="gifContainer">
+                        <img class="moldgif"  src="images/compressedmoldbw.gif" alt="">
+                    </div>
+                        
+                        
+                        
+                        
+                </div>
+                <h3> <a href="https://github.com/lucamoynierUBC/PA3" target="_blank"> Image Compression </a></h3>
+                <p>Co-developed an image compression program  with a partner in my Algorithms and Data Structures course. By using binary trees to represent PNG images,
+                    the program uses complex recursive algorithms for manipulating an image. The program can compress images and flip images horrizontally or verticaly by manipulating pointers. 
+                </p>
+                <div class="paProjectimg">
+                    <div class="imgContainer">
+                        <img  class="papng" src="images/ogptree.png" alt="" >
+                    </div>
+                    <div class="imgContainer">
+                        <img class="papng"  src="images/prunedimg.png" alt="">
+                    </div>
+                    <p>The tree constructed from the image on the left has 57,344 leaf nodes, where on the right, the image obtained after compression contains 6,518 nodes. Each Node represents one pixel of the image.</p>
+                    
+                    
+                    
+                </div>
+                
+
+
+
+
+                
+
+
+                
+                
+            </div>
+        </div>
+        
+    </div>
+
+    <div class = "contact">
+        <div class="bottom__container">
+            <section id="contact">
+                <p>Contact me</p>
+                <a href="https://github.com/lucamoynierUBC" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=lucamoynier2@gmail.com" target="_blank">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/luca-moynier-3a1b89236/" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+
+                </a>
+                
+                
+                
+
+
+
+            </section>
+
+            <p2 class="final"> Lucas Moynier | This website is a work in progress</p2>
+
+        </div>
+    </div>
+
+    <div class="final">
+
+    
+    
+
+    <script src="app.js"></script>
+    <script src="jquery-3.6.0.js"></script>
+</body>
+</html>
