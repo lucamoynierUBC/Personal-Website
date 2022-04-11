@@ -1,9 +1,17 @@
 * {
     box-sizing: border-box;
-    margin: 1px;
+    margin: 0px;
+    margin-top: 0px;
     padding: 0;
     font-weight: bold;
     font-family: "Computer Modern Typewriter", sans-serif;
+    background: var(--primary-color);
+    
+}
+
+.header{
+    color: var(--secondary-color);
+    margin-left: 5px;
 }
 
 /* title */
@@ -17,7 +25,7 @@
     margin: 50px auto;
 
     padding: 8px 10px;
-    transition: all 0.5s;
+    /* transition: all 0.5s; */
     transform: rotate(180deg);
     position: absolute;
     cursor: pointer;
@@ -69,8 +77,8 @@
 
 .navbar__links {
     
-    
-    color: black;
+
+    color: var(--secondary-color);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -78,6 +86,51 @@
     padding: 0 1rem;
     height: 100%;
     font-size: large;
+    
+    
+}
+
+#moon{
+    font-size: 30px;
+    cursor: pointer;
+    top: 8px;
+    right: 0px;
+    position: absolute;
+    color: var(--secondary-color);
+    visibility: var(--hidden);
+    
+}
+
+#lightbulb{
+    font-size: 30px;
+    cursor: pointer;
+    top: 8px;
+    right: 5px;
+    position: absolute;
+    color: var(--secondary-color);
+    visibility: var(--secondHidden);
+
+}
+
+
+
+#moon:hover{
+    color: darkgray;
+
+}
+
+:root {
+    --primary-color: white;
+    --secondary-color: #212121;
+    --hidden: visible;
+    --secondHidden: hidden;
+}
+
+.dark-theme{
+    --primary-color: black;
+    --secondary-color: white;
+    --hidden: hidden;
+    --secondHidden: visible;
     
 }
 
@@ -140,6 +193,7 @@ width: 60px;
     z-index: 1;
     width: 100%;
     padding: 0 50px;
+    color: var(--secondary-color);
     
     
     
@@ -234,12 +288,13 @@ width: 60px;
 
 .main__container h3 {
     margin-top: .1rem;
+    
 }
 .main__container a {
     margin-top: 1rem;
     height: 0px;
     text-decoration: none;
-    color: #000;
+    color: var(--secondary-color);
 }
 
 .main__container a:hover{
@@ -260,6 +315,7 @@ width: 60px;
 
 .contact p {
     font-size: 20px;
+    color: var(--secondary-color);
     
     font-family: "Computer Modern Typewriter", sans-serif;
     
@@ -291,13 +347,13 @@ width: 60px;
 
 
 .fa-solid:hover {
-    color: #000;
+    color: darkgrey;
     
 
 }
 
 .fa-brands:hover{
-    color: #000;
+    color: darkgray;
 }
 
     
